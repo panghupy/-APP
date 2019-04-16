@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PceoNews/.idea/PceoNews.iml" filepath="$PROJECT_DIR$/../PceoNews/.idea/PceoNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jingdong_django/.idea/jingdong_django.iml" filepath="$PROJECT_DIR$/../jingdong_django/.idea/jingdong_django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jingfen/.idea/jingfen.iml" filepath="$PROJECT_DIR$/../jingfen/.idea/jingfen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jingfen_django/.idea/jingfen_django.iml" filepath="$PROJECT_DIR$/../jingfen_django/.idea/jingfen_django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mysql_jingfen.iml" filepath="$PROJECT_DIR$/.idea/mysql_jingfen.iml" />
+    </modules>
+  </component>
+</project>

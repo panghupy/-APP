@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c740554-02ed-49c3-8a36-61be56bf7928" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PceoNews/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PceoNews/COOKIE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PceoNews/DataTools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PceoNews/DataTools/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PceoNews/TOKEN.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/.idea/PceoNews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/.idea/PceoNews.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/DriveEastMoney.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/NewsAdd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/NewsAdd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/cookie.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/eastMoney.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/eastMoney.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/python读取csv文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PceoNews/xueQiu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PceoNews/xueQiu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/.idea/jingfen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/.idea/jingfen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/script/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/script/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/script/spider_jf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jingfen/script/spider_jf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jingfen/script/test.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mysql_jingfen$test.coverage" NAME="test Coverage Results" MODIFIED="1554793835739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$tests.coverage" NAME="tests Coverage Results" MODIFIED="1554346937484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../jingfen_django/jingfenApp" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1554344656528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PceoNews" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$models.coverage" NAME="models Coverage Results" MODIFIED="1553667368342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../jingdong_django/jingfenApp" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$fuben.coverage" NAME="fuben Coverage Results" MODIFIED="1553661561430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$xueQiu.coverage" NAME="xueQiu Coverage Results" MODIFIED="1554273363958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PceoNews" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$NewsAdd.coverage" NAME="NewsAdd Coverage Results" MODIFIED="1554274375985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PceoNews" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$.coverage" NAME="商品入库 Coverage Results" MODIFIED="1555295724913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$9_9.coverage" NAME="9.9包邮 Coverage Results" MODIFIED="1555295714555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysql_jingfen$eastMoney.coverage" NAME="eastMoney Coverage Results" MODIFIED="1554273370495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PceoNews" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1073229172">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="command" value="1" />
+          <entry key="css" value="3" />
+          <entry key="html" value="9" />
+          <entry key="ini" value="1" />
+          <entry key="log" value="1" />
+          <entry key="pid" value="1" />
+          <entry key="py" value="73" />
+          <entry key="txt" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="9" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="33" />
+          <entry key="html" value="738" />
+          <entry key="ini" value="19" />
+          <entry key="py" value="5149" />
+          <entry key="txt" value="103" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="738" />
+          <entry key="Ini" value="19" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Python" value="5149" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/精选商品入库.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+              <folding>
+                <element signature="e#44#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1464">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/多品类商品入库.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1109">
+              <caret line="144" column="26" lean-forward="true" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9.9包邮.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/进程池test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jingfen_django/templates/index_eg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6648">
+              <caret line="277" column="28" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jingfen_django/templates/search_eg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9144">
+              <caret line="381" column="7" selection-start-line="381" selection-start-column="7" selection-end-line="381" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#648#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.5/concurrent/futures/thread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2352">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search_news</find>
+      <find>all_news</find>
+      <find>all_new</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>search_goods</replace>
+      <replace>all_goods</replace>
+      <replace>goods</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../jingfen" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/spider_jf_mysql.py" />
+        <option value="$PROJECT_DIR$/../jingfen/script/spider_jf.py" />
+        <option value="$PROJECT_DIR$/fuben.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/DataTools/tools.py" />
+        <option value="$PROJECT_DIR$/../jingdong_django/jingfenApp/models.py" />
+        <option value="$PROJECT_DIR$/../jingdong_django/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/../jingdong_django/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/../jingdong_django/jingdong_django/wsgi.py" />
+        <option value="$PROJECT_DIR$/../jingdong_django/jingdong_django/settings.py" />
+        <option value="$PROJECT_DIR$/../jingdong_django/templates/index_eg.html" />
+        <option value="$PROJECT_DIR$/../jingdong_django/jingfenApp/views.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfen_django/settings.py" />
+        <option value="$PROJECT_DIR$/商品入库.py" />
+        <option value="$PROJECT_DIR$/../PceoNews/xueQiu.py" />
+        <option value="$PROJECT_DIR$/../PceoNews/eastMoney.py" />
+        <option value="$PROJECT_DIR$/../PceoNews/TOKEN.txt" />
+        <option value="$PROJECT_DIR$/../PceoNews/COOKIE.txt" />
+        <option value="$PROJECT_DIR$/../PceoNews/NewsAdd.py" />
+        <option value="$PROJECT_DIR$/../PceoNews/test.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfenApp/tests.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfenApp/models.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfenApp/admin.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/templates/search.html" />
+        <option value="$PROJECT_DIR$/../jingfen_django/templates/search_eg.html" />
+        <option value="$PROJECT_DIR$/../jingfen_django/templates/index_eg.html" />
+        <option value="$PROJECT_DIR$/多品类商品抓取.py" />
+        <option value="$PROJECT_DIR$/线程池的使用.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfenApp/urls.py" />
+        <option value="$PROJECT_DIR$/多品类商品入库.py" />
+        <option value="$PROJECT_DIR$/9.9包邮.py" />
+        <option value="$PROJECT_DIR$/精选商品入库.py" />
+        <option value="$PROJECT_DIR$/../jingfen_django/jingfenApp/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="34" />
+    <option name="width" value="1853" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mysql_jingfen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysql_jingfen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql_jingfen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jingfen_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql_jingfen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jingfen_django" type="462c0819:PsiDirectoryNode" />
+              <item name="jingfen_django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql_jingfen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jingfen_django" type="462c0819:PsiDirectoryNode" />
+              <item name="jingfenApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysql_jingfen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yitao_django" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../jingfen_django/templates" />
+      <recent name="$PROJECT_DIR$/../jingdong_django/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.商品入库">
+    <configuration name="商品入库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/精选商品入库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="多品类商品入库" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多品类商品入库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.9包邮" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.9包邮.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="线程池的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多品类商品入库.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="线程池的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线程池的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="线程池的使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线程池的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysql_jingfen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/多品类商品抓取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jingfen_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../jingfen_django/jingfenApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../jingfen_django/jingfenApp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.商品入库" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.多品类商品入库" />
+      <item itemvalue="Python.9.9包邮" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.商品入库" />
+        <item itemvalue="Python.9.9包邮" />
+        <item itemvalue="Python.多品类商品入库" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c740554-02ed-49c3-8a36-61be56bf7928" name="Default Changelist" comment="" />
+      <created>1553054764396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553054764396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18477662" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997242" weight="0.16545266" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298647" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002758" side_tool="true" weight="0.55567116" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4693028" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3298647" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/uwsgi.pid" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/uwsgi.log" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/static/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/templates/search_eg.html" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/templates/福利集结号.html" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingfenApp/tests.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingfenApp/views.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingdong_django/settings.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/templates/index_eg.html" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/static/css/layer.css" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/static/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/manage.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingfenApp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingdong_django/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingfenApp/migrations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingfenApp/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../jingdong_django/jingdong_django/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfen_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/TOKEN.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/headers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/COOKIE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/xueQiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/NewsAdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/eastMoney.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PceoNews/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="30" selection-start-line="30" selection-end-line="37" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/jingdong_env/lib/python3.5/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6288">
+          <caret line="278" column="8" selection-start-line="278" selection-start-column="8" selection-end-line="278" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen/script/send_one_goods2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen/script/spider_jf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fuben.py" />
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/templates/search.html" />
+    <entry file="file://$PROJECT_DIR$/多品类商品抓取.py" />
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfen_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#648#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/templates/index_eg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6648">
+          <caret line="277" column="28" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/templates/search_eg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9144">
+          <caret line="381" column="7" selection-start-line="381" selection-start-column="7" selection-end-line="381" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#648#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/concurrent/futures/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.9包邮.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多品类商品入库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="144" column="26" lean-forward="true" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进程池test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/精选商品入库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jingfen_django/jingfenApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
